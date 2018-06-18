@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  <style>
+  .border {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    margin: 6px;
+  }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <h2>Borders</h2>
+  <p>Use the border classes to add or remove borders from an element:</p> 
+  <span class="border"></span>
+  <span class=" border border-0 border-primary rounded-circle"></span>
+  <span class=" border border-top-0 border-success"></span>
+  <span class="border border-bottom-0 border-danger"></span>
+  
+</div>
+
+</body>
+</html>
+
+//some other exapmles of flex
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+</head>
+<body> 
+
+<div class="container mt-3">
+  <h2>Fill / Equal Widths</h2>
+  <p>Use .flex-fill on flex items to force them into equal widths:</p>
+  <div class="d-flex mb-3">
+    <div class="p-2 flex-fill bg-info">Flex item 1</div>
+    <div class="p-2 flex-fill bg-warning">Flex item 2</div>
+    <div class="p-2 flex-fill bg-primary">Flex item 3</div>
+  </div>
+  <p>Example without .flex-fill:</p>
+ 
+ <div class="d-flex mb-3">
+ <div class="p-2 flex-fill bg-info order-2 flex-grow-1">flex item 4</div>
+ <div class ="p-2 flex-fill bg-danger order-1">flex item 5</div> 
+ <div class="p-2 flex-fill bg-danger flex-wrap">flex item 6</div>
+</div>
+
+</body>
+</html>
