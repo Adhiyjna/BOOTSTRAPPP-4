@@ -13,10 +13,13 @@
 
 <div class="container">
   <h2>Button Styles</h2>
-  <button type="button" class="btn btn-primary">button</button> 
-  <button type="button" class="btn btn-info">info button</button>
-  <button type="button" class="btn btn-danger">danger </button>
-  <button type="button" class ="btn btn-success">success</button>
+  <a href="#" class= "btn btn-info" type="button">button</a><br>
+  <button type="button" class="btn btn-primary btn-block">button</button> <br>
+  <button type="button" class="btn btn-info">info button</button><br>
+  <button type="button" class="btn btn-danger btn-sm">danger </button><br>
+  <button type="button" class ="btn btn-success">success</button><br>
+  <button type="button" class ="btn btn-primary active">Active</button><br>
+  
 </div>
 
 </body>
